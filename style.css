@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 60px; 
+    background-image: url('your-background-image.jpg'); 
+    background-size: cover; 
+    background-position: center; /* Center background image */
+    background-attachment: fixed; /* Fix background position */
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: flex-start; 
+    align-items: center; 
+    height: 100vh; /* Full height of the viewport */
+    margin-top: -30px; 
+}
+
+.menu-bar {
+    list-style-type: none; 
+    padding: 0; 
+    background-color: #4caf50; /* Background color for menu */
+    display: flex; /* Use flexbox for menu items */
+    justify-content: space-around; /* Evenly space items */
+    align-items: center; /* Center items vertically */
+    height: 50px; 
+    border-radius: 15px; 
+    margin-bottom: 20px; 
+    margin-top: 50px; 
+}
+
+.menu-bar li {
+    display: inline; /* Display list items inline */
+}
+
+.menu-bar a {
+    text-decoration: none; 
+    color: white; 
+    padding: 15px 10px; 
+    font-size: 16px;
+    line-height: 10; 
+}
+
+/* highlight when crosshair on */
+
+
+.menu-bar a:hover {
+    background-color: #45a049; /* Darker green on hover */
+    border-radius: 15px; /* Rounded corners on hover */
+}
+
+.container {
+    background-color: #b2e0b2; /* Background color for container */
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 20px; 
+    width: 80%; 
+    max-width: 800px; /* Maximum width */
+    margin-bottom: 30px; /* Space below container */
+}
+
+h2 {
+    background-color: #4caf50; /* Background color for heading */
+    font-family: 'Pacifico', cursive; /* Cursive font for heading */
+    color: #e7ffe4; /* Light text color */
+    padding: 10px; 
+    border-radius: 10px 10px 0 0; 
+    margin: -20px -20px 20px -20px; /* Negative margins for alignment */
+    text-align: center; 
+    font-size: 24px; /* Font size for heading */
+}
+
+.content {
+    display: flex; /* Use flexbox for content layout */
+}
+
+.profile-image {
+    width: 150px; 
+    height: auto; /* Auto height */
+    border-radius: 10px; 
+    margin-right: 20px; 
+}
+
+p {
+    font-family: 'Pacifico', cursive; 
+    font-size: 18px; 
+    line-height: 1.6; /* Line height for readability */
+}
+
+/* Arrange hobbies horizontally */
+.hobbies {
+    display: flex; 
+    justify-content: space-around; /* Evenly space hobby items */
+    margin-top: 20px;
+}
+
+.hobby {
+    text-align: center; /* Center text in hobby items */
+}
+
+.hobby img {
+    width: 180px; 
+    height: 180px;
+    border-radius: 10px; 
+    object-fit: cover; /* Cover image area */
+}
+
+.hobby a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; 
+}
+
+.hobby a:hover {
+    color: #4caf50;
+}
+
+.feedback-section {
+    display: flex;
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+textarea {
+    width: 100%; /* Full width for textarea */
+    max-width: 200px; 
+    max-height: 15px; 
+    padding: 10px; /* Padding inside textarea */
+    border-radius: 5px; 
+    border: 3px solid #4caf50; /* Border styling */
+    margin-right: 10px; /* Space between textarea and button */
+    margin-left: 225px; /* Space on the left */
+}
+
+.submit-button {
+    background-color: #4caf50; /* Green background for button */
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100px; 
+}
+
+.submit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
